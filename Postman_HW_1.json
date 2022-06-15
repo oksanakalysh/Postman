@@ -2,7 +2,7 @@
 	"info": {
 		"_postman_id": "d0690f76-cd95-4cc9-8aef-9ff277639c4e",
 		"name": "HW_Postman_1",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
 		"_exporter_id": "21427587"
 	},
 	"item": [
@@ -12,21 +12,26 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{url}}/get_method?name={{name}}&age={{age}}",
+					"raw": "http://162.55.220.72:5005/get_method?name=Oksana&age=35",
+					"protocol": "http",
 					"host": [
-						"{{url}}"
+						"162",
+						"55",
+						"220",
+						"72"
 					],
+					"port": "5005",
 					"path": [
 						"get_method"
 					],
 					"query": [
 						{
 							"key": "name",
-							"value": "{{name}}"
+							"value": "Oksana"
 						},
 						{
 							"key": "age",
-							"value": "{{age}}"
+							"value": "35"
 						}
 					]
 				}
@@ -43,58 +48,78 @@
 					"formdata": [
 						{
 							"key": "name",
-							"value": "{{name}}",
+							"value": "Oksana",
 							"type": "text"
 						},
 						{
 							"key": "age",
-							"value": "{{age}}",
+							"value": "35",
 							"type": "text"
 						},
 						{
 							"key": "salary",
-							"value": "{{salary}}",
+							"value": "2000",
 							"type": "text"
 						}
 					]
 				},
-				"url": {
-					"raw": "{{url}}/user_info_3",
-					"host": [
-						"{{url}}"
-					],
-					"path": [
-						"user_info_3"
-					]
-				}
+				"url": "http://162.55.220.72:5005/user_info_3"
 			},
 			"response": []
 		},
 		{
 			"name": "EP_3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
 				"method": "GET",
 				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Oksana",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "35",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "2000",
+							"type": "text"
+						}
+					]
+				},
 				"url": {
-					"raw": "{{url}}/object_info_1?name={{name}}&age={{age}}&weight={{weight}}",
+					"raw": "http://162.55.220.72:5005/object_info_1?name=Oksana&age=35&weight=58",
+					"protocol": "http",
 					"host": [
-						"{{url}}"
+						"162",
+						"55",
+						"220",
+						"72"
 					],
+					"port": "5005",
 					"path": [
 						"object_info_1"
 					],
 					"query": [
 						{
 							"key": "name",
-							"value": "{{name}}"
+							"value": "Oksana"
 						},
 						{
 							"key": "age",
-							"value": "{{age}}"
+							"value": "35"
 						},
 						{
 							"key": "weight",
-							"value": "{{weight}}"
+							"value": "58"
 						}
 					]
 				}
@@ -103,29 +128,57 @@
 		},
 		{
 			"name": "EP_4",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
 				"method": "GET",
 				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Oksana",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "35",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "2000",
+							"type": "text"
+						}
+					]
+				},
 				"url": {
-					"raw": "{{url}}/object_info_2?name={{name}}&age={{age}}&salary={{salary}}",
+					"raw": "http://162.55.220.72:5005/object_info_2?name=Oksana&age=35&salary=2000",
+					"protocol": "http",
 					"host": [
-						"{{url}}"
+						"162",
+						"55",
+						"220",
+						"72"
 					],
+					"port": "5005",
 					"path": [
 						"object_info_2"
 					],
 					"query": [
 						{
 							"key": "name",
-							"value": "{{name}}"
+							"value": "Oksana"
 						},
 						{
 							"key": "age",
-							"value": "{{age}}"
+							"value": "35"
 						},
 						{
 							"key": "salary",
-							"value": "{{salary}}"
+							"value": "2000"
 						}
 					]
 				}
@@ -134,29 +187,57 @@
 		},
 		{
 			"name": "EP_5",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
 				"method": "GET",
 				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Oksana",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "35",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "2000",
+							"type": "text"
+						}
+					]
+				},
 				"url": {
-					"raw": "{{url}}/object_info_3?name={{name}}&age={{age}}&salary={{salary}}",
+					"raw": "http://162.55.220.72:5005/object_info_3?name=Oksana&age=35&salary=2000",
+					"protocol": "http",
 					"host": [
-						"{{url}}"
+						"162",
+						"55",
+						"220",
+						"72"
 					],
+					"port": "5005",
 					"path": [
 						"object_info_3"
 					],
 					"query": [
 						{
 							"key": "name",
-							"value": "{{name}}"
+							"value": "Oksana"
 						},
 						{
 							"key": "age",
-							"value": "{{age}}"
+							"value": "35"
 						},
 						{
 							"key": "salary",
-							"value": "{{salary}}"
+							"value": "2000"
 						}
 					]
 				}
@@ -165,29 +246,57 @@
 		},
 		{
 			"name": "EP_6",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
 				"method": "GET",
 				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Oksana",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "35",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "2000",
+							"type": "text"
+						}
+					]
+				},
 				"url": {
-					"raw": "{{url}}/object_info_4?name={{name}}&age={{age}}&salary={{salary}}",
+					"raw": "http://162.55.220.72:5005/object_info_4?name=Oksana&age=35&salary=2000",
+					"protocol": "http",
 					"host": [
-						"{{url}}"
+						"162",
+						"55",
+						"220",
+						"72"
 					],
+					"port": "5005",
 					"path": [
 						"object_info_4"
 					],
 					"query": [
 						{
 							"key": "name",
-							"value": "{{name}}"
+							"value": "Oksana"
 						},
 						{
 							"key": "age",
-							"value": "{{age}}"
+							"value": "35"
 						},
 						{
 							"key": "salary",
-							"value": "{{salary}}"
+							"value": "2000"
 						}
 					]
 				}
@@ -204,67 +313,22 @@
 					"formdata": [
 						{
 							"key": "name",
-							"value": "{{name}}",
+							"value": "Oksana",
 							"type": "text"
 						},
 						{
 							"key": "age",
-							"value": "{{age}}",
+							"value": "35",
 							"type": "text"
 						},
 						{
 							"key": "salary",
-							"value": "{{salary}}",
+							"value": "2000",
 							"type": "text"
 						}
 					]
 				},
-				"url": {
-					"raw": "{{url}}/user_info_2",
-					"host": [
-						"{{url}}"
-					],
-					"path": [
-						"user_info_2"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "URL",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "formdata",
-					"formdata": [
-						{
-							"key": "name",
-							"value": "{{name}}",
-							"type": "text"
-						},
-						{
-							"key": "age",
-							"value": "{{age}}",
-							"type": "text"
-						},
-						{
-							"key": "salary",
-							"value": "{{salary}}",
-							"type": "text"
-						}
-					]
-				},
-				"url": {
-					"raw": "{{url}}/get_method",
-					"host": [
-						"{{url}}"
-					],
-					"path": [
-						"get_method"
-					]
-				}
+				"url": "http://162.55.220.72:5005/user_info_2"
 			},
 			"response": []
 		}

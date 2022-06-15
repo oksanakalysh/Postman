@@ -1,0 +1,12 @@
+
+Postman
+HW_2
+Additional tasks.
+
+1. Create an environment.
+2. Create variables name, age, salary, weight in it.
+3. Write in them the values, that you use in queries.
+4. Replace the written values in the requests with the text to call the environment variable.
+5. Create URL variable.
+6. Write IP + Port into it (everything up to the endpoint).
+7. Replace IP and Port in requests with a variable.
